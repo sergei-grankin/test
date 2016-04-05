@@ -1,5 +1,7 @@
 'use strict';
 
+module.exports = ProgressBar;
+
 function ProgressBar(holder) {
 	var canvas = document.createElement('canvas');
 

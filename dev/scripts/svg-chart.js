@@ -1,5 +1,15 @@
 'use strict';
 
+module.exports = SvgChart;
+
+require('babel-polyfill');
+
+var request = require('./request');
+var lib = require('./calculate');
+var progressBar = require('./progress-bar');
+
+request();
+
 function SvgChart(context) {
 	this.options = {
 		width: 320,
@@ -73,7 +83,7 @@ SvgChart.prototype = {
 			self.queue.push(itemPromise);
 		});
 
-		this.progressBar = new ProgressBar(this.container);
+		this.progressBar = new progressBar(this.container);
 
 		this.clickHandler = function() {
 			self.startLevel();

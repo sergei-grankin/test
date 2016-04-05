@@ -1,4 +1,6 @@
-var lib = {
+'use strict';
+
+module.exports = {
 	calculateAngle: function(data, pathSumm) {
 		return (data * 100 / pathSumm) * 360 / 100;
 	},

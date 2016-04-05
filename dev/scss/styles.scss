@@ -1,0 +1,26 @@
+@import './reset';
+
+#wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.holder {
+	overflow: hidden;
+	padding: 30px 0 80px;
+}
+
+.chart-box {
+	width: 400px;
+	float: left;
+	canvas,
+	svg {
+		margin: 0 0 30px;
+	}
+}
+
+#progress-bar {
+	margin: 0 0 50px;
+}

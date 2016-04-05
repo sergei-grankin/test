@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chart</title>
+	<link media="all" rel="stylesheet" href="css/all.css">
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Promise"></script>
+	<script src="js/common.js" defer></script>
+	<script src="js/calculate.js" defer></script>
+	<script src="js/svg-chart.js" defer></script>
+	<script src="js/progress-bar.js" defer></script>
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="holder">
+			<div class="chart-box">
+				<div class="svg-chart" data-values='[{
+						"value": 2,
+						"color": "#f7e248"
+					}, {
+						"value": 100,
+						"color": "#6dbcdb"
+					}, {
+						"value": 2,
+						"color": "#f7e248"
+					}]'
+					data-level-duration="3000"
+					data-min-level-duration="2000"
+					data-level-step="50">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

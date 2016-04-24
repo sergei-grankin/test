@@ -1,9 +1,20 @@
 # test
 
-### How to Install
-
+#### How to Install
+======
 ```cli
 	npm i
 ```
+======
 
-### How to play
+#### How to build
+======
+```cli
+	gulp __dev
+```
+======
+
+#### How to play
+======
+
+======

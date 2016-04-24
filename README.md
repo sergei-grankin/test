@@ -15,3 +15,6 @@
 ======
 
 #### How to play
+
+1. Press start button
+2.

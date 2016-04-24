@@ -2,7 +2,7 @@
 
 #### How to Install
 
-Run in terminal
+Run in terminal:
 ```javascript
 	npm i
 ```
@@ -10,7 +10,7 @@ Run in terminal
 
 #### How to build
 
-Run in terminal
+Run in terminal:
 ```javascript
 	gulp __dev
 ```
@@ -18,5 +18,6 @@ Run in terminal
 
 #### How to play
 
-1. Press start button
-2. aaa
+1. Click "Start" button to start the game
+2. Using a mouse it is necessary to place the yellow sector above the line and hold over 0,5 sec.
+3. In order to go to the next level please click on a button "Start".

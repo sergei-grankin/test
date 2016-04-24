@@ -1,20 +1,17 @@
 # test
 
 #### How to Install
-======
-```cli
+
+```javascript
 	npm i
 ```
 ======
 
 #### How to build
-======
-```cli
+
+```javascript
 	gulp __dev
 ```
 ======
 
 #### How to play
-======
-
-======
